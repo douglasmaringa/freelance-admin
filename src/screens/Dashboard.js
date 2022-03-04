@@ -38,7 +38,7 @@ useEffect(() => {
                 {
                   data.map((e)=>(
                     <>
-                   <div class="max-w-sm rounded overflow-hidden shadow-lg mt-16 mx-80">
+                   <div class="max-w-sm rounded overflow-hidden shadow-lg mt-16 mb-10 mx-80">
   
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Email:{e.email}</div>
