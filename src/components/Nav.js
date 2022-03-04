@@ -37,7 +37,7 @@ function Nav() {
   <div class="container flex flex-wrap justify-between items-center mx-auto">
     <button  class="flex items-center">
         <img src="https://i.ibb.co/DDdf5sn/26975294.jpg" class="mr-3 h-6 sm:h-10" alt="Flowbite Logo" />
-        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+        <span onClick={()=>{navigate("/dashboard")}} class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
     </button>
     <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
       <span class="sr-only">Open main menu</span>
