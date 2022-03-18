@@ -42,8 +42,8 @@ useEffect(() => {
   
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Email:{e.email}</div>
-    <div class="font-bold text-xl mb-2">Service : {e.service}</div>
-    <div class="font-bold text-xl mb-2">Phone:{e.phone}</div>
+    <div class="font-bold text-xl mb-2">Name : {e.name}</div>
+    
     <p class="text-gray-700 text-base">
     {e.message}
     </p>
